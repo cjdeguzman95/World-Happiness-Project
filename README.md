@@ -1,9 +1,17 @@
-# World-Happiness-Project
+# World Happiness
+#### Technologies: Python, Tableau
 
-The goal of this project is to analyse world happiness in 2019
+This project demonstrates:
+- Ingesting data from different sources (flat files, database and API) 
+- Consolidating multiple datasets into one masterfile (see code [here](https://github.com/cjdeguzman95/World-Happiness-Project/blob/main/World%20Happiness%20Analysis.ipynb))
+- Creating a Tableau dashboard (see dashboard [here](https://public.tableau.com/app/profile/cj.de.guzman/viz/WorldHappinessDashboard_16478803702860/WorldHappiness))
 
-This project involved ingesting data from different data sources (flat files, database and API) which were then cleaned and transformed into one consolidated masterfile. The masterfile was then loaded into Tableau for further analysis. 
+This project explores data on world happiness between 2016 and 2019
 
-You can view the Tableau dashboard [here](https://public.tableau.com/app/profile/cj.de.guzman/viz/WorldHappinessDashboard_16478803702860/WorldHappiness).
+The data is analysed to answer the following questions:
+1. Which year was the world at its happiest?
+2. How does wealth affect happiness?
+3. How does quality of life affect happiness?
+4. How does family structure affect happiness?
 
-The datasets were obtained from [Euromonitor](https://www.euromonitor.com/), [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD), [Kaggle](https://www.kaggle.com/unsdsn/world-happiness), [Metaweather Open API](https://www.metaweather.com/api/) and [Git Hub](https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv)
+Sources: [Euromonitor](https://www.euromonitor.com/), [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD), [Kaggle](https://www.kaggle.com/unsdsn/world-happiness), [Metaweather Open API](https://www.metaweather.com/api/), [GitHub](https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv)
